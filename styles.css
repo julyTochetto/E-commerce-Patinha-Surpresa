@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Indie+Flower&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('footer.css');
+@import url('pack.css');
+@import url('cart.css');
+
+:root {
+    --color-primary-1:#FFE8A1;
+    --color-primary-2:#FF8C00;
+    --color-primary-3:#003366;
+
+    --color-neutral-0:#fff;
+    --color-neutral-1:#1d1d1d;
+    --color-neutral-2:#1d1d1dad;
+}
+
+* {
+    font-family: 'Poppins', Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFE8A1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+section {
+    padding: 28px 8%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-neutral-2);
+    font-weight: 600;
+}
+
+.btn-default {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.btn-default:hover {
+    background-color: var(--color-primary-3);
+    color: var(--color-neutral-0);
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: var(--color-neutral-0);
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--color-neutral-1);
+    box-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.1);
+    transition: background-color 0,3s ease;
+}
+
+.social-media-buttons a:hover {
+    background-color: var(--color-primary-3);
+}
+
+.section-title {
+    color: var(--color-primary-3);
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
+
+#mobile-btn {
+    display: none;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav-list,
+    #navbar .btn-pc {
+        display: none !important;
+    }
+
+    #mobile-btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile-menu.active{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #mobile-nav-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+     #mobile-nav-list .nav-item {
+        list-style: none;
+        text-align: center;
+     }
+
+    
+}

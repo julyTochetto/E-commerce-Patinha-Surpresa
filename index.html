@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <title>Patinha Surpresa</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-paw"></i>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html">Surpresa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pack.html">Pacote</a>
+                </li>
+            </ul>
+            <a href="cart.html" style="visibility: hidden;">
+                <button class="btn-default btn-pc">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div id="mobile-menu">
+                <ul id="mobile-nav-list">
+                    <li class="nav-item ">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html">Surpresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pack.html">Pacote</a>
+                    </li>
+                </ul>
+                <a href="cart.html" style="visibility: hidden;">
+                    <button class="btn-default">
+                            <i class="fa-solid fa-cart-shopping">
+                            </i>
+                    </button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                     Porque seu pet merece um
+                     <span>Uau</span>
+                    todo dia!
+                </h1>
+                <div class="cta-buttons">
+                    <a href="cart.html" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-paw"></i>
+                        </button>
+                        Menu de Lambidas e Alegria
+                    </a>
+                    
+                    <a href="tel:+333333333" id="phone-button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (54) 99380-0453
+                    </a>
+                </div>
+            </div>
+            <div id="banner">
+                <img src="src/images/index.jpeg">
+            </div>
+        </section>
+ 
+        <section id="menu">
+            <h2 class="section-title">Galeria</h2>
+            <h3 class="section-subtitle">Da Patinha</h3>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="src/images/img7.jpeg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="src/images/img6.jpeg" class="d-block w-100" >
+                    </div>
+                    <div class="carousel-item">
+                    <img src="src/images/img4.jpeg" class="d-block w-100" >
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="footer-items">
+                <span id="copyright">
+                    &copy 2025
+                </span>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

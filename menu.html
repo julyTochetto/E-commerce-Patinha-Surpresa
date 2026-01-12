@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/styles.css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <title>Menu</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-paw"></i>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html">Surpresa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pack.html">Pacote</a>
+                </li>
+            </ul>
+            <a href="cart.html">
+                <button class="btn-default btn-pc">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div id="mobile-menu">
+                <ul id="mobile-nav-list">
+                    <li class="nav-item ">
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html">Surpresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pack.html">Pacote</a>
+                    </li>
+                </ul>
+                <a href="cart.html">
+                    <button class="btn-default">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h1 class="title">Produtos em Destaque</h1>
+            <br>
+            <h3 class="section-subtitle">Gattitos</h3>
+            <div id="boxes">
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+
+                    <img src="src/images/cat1.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Filhote
+                    </h3>
+                    <span class="box-description">
+                        Surpresa para gatos filhotes
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 20,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+
+                    <img src="src/images/cat2.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Adulto
+                    </h3>
+                    <span class="box-description">
+                        Surpresa para gatos Adultos
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 25,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+
+                    <img src="src/images/cat3.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Velhinho
+                    </h3>
+                    <span class="box-description">
+                        Até os mais velhos adoram presentes
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 25,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-cat"></i>
+                    </div>
+
+                    <img src="src/images/cat.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Mix de Pacotes
+                    </h3>
+                    <span class="box-description">
+                        Todos os pacote em forma de surpresa!
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 30,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="menu">
+            <h3 class="section-subtitle">Cãeszinne</h3>
+            <div id="boxes">
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-dog"></i>
+                    </div>
+
+                    <img src="src/images/dog1.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Filhote
+                    </h3>
+                    <span class="box-description">
+                        Surpresa para cães filhotes
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 20,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default btn-pc">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-dog"></i>
+                    </div>
+
+                    <img src="src/images/dog2.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Adulto
+                    </h3>
+                    <span class="box-description">
+                        Surpresa para cães Adultos
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 25,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-dog"></i>
+                    </div>
+
+                    <img src="src/images/dog3.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Velhinho
+                    </h3>
+                    <span class="box-description">
+                        Até os mais velhos adoram presentes
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 25,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-heart">
+                        <i class="fa-solid fa-dog"></i>
+                    </div>
+
+                    <img src="src/images/dog.jpeg" class="box-img">
+                    <h3 class="box-title">
+                        Mix de Pacotes
+                    </h3>
+                    <span class="box-description">
+                        Todos os pacote em forma de surpresa!
+                    </span>
+
+                    <div class="box-rate">
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                        <i class="fa-solid fa-bone"></i>
+                    </div>
+                    <div class="box-price">
+                        <h4>R$ 30,00</h4>
+                        <a href="cart.html">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="footer-items">
+                <span id="copyright">
+                    &copy 2025
+                </span>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

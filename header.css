@@ -1,0 +1,39 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1);
+    z-index: 3;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-logo {
+    font-size: 24px;
+    color: var(--color-primary-2);
+}
+
+#nav-list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: var(--color-neutral-2);
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    color: var(--color-neutral-2);
+    border-bottom: 3px solid var(--color-primary-2);
+}
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Assinatura Mensal</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-paw"></i>
+            <ul id="nav-list">
+                <li class="nav-item active">
+                    <a href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html">Surpresa</a>
+                </li>
+                <li class="nav-item">
+                    <a href="pack.html">Pacote</a>
+                </li>
+            </ul>
+            <a href="cart.html" style="visibility: hidden;">
+                <button class="btn-default btn-pc">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div id="mobile-menu">
+                <ul id="mobile-nav-list">
+                    <li class="nav-item ">
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html">Surpresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pack.html">Pacote</a>
+                    </li>
+                </ul>
+                <a href="cart.html" style="visibility: hidden;">
+                <button class="btn-default btn-pc">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+            </a>
+            </div>
+        </nav>
+    </header>
+    <main id="form-container">
+        <div id="form-header">
+            <h1 id="form-title">Assinatura Mensal</h1>
+        </div>
+        <form id="form">
+            <div id="input-container">
+                <div class="input-box">
+                    <label for="name" class="form-label">Nome</label>
+                    <div class="input-field">
+                        <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="last-name" class="form-label">Sobrenome</label>
+                    <div class="input-field">
+                        <input type="text" name="last-name" id="last-name" class="form-control" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="birthdate" class="form-label">Data de Nascimento</label>
+                    <div class="input-field">
+                        <input type="date" name="birthdate" id="birthdate" class="form-control" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="email" class="form-label">E-mail</label>
+                    <div class="input-field">
+                        <input type="email" name="email" id="email" class="form-control" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="adress" class="form-label">Endereço</label>
+                    <div class="input-field">
+                        <input type="text" name="adress" id="adress" class="form-control" required>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <label for="cep" class="form-label">CEP</label>
+                    <div class="input-field">
+                        <input type="number" name="cep" id="cep" class="form-control" required>
+                    </div>
+                </div>
+                <div class="radio-container">
+                    <label class="form-label">Idade do Pet</label>
+                    <div id="age-inputs" >
+                        <div class="radio-box">
+                            <input type="radio" name="age" id="filhote" class="form-control" value="filhote" checked>
+                            <label for="age" class="form-label">Filhote</label>
+                        </div>
+                        <div class="radio-box">
+                            <input type="radio" name="age" id="adulto" class="form-control" value="adulto">
+                            <label for="age" class="form-label">Adulto</label>
+                        </div>
+                        <div class="radio-box">
+                            <input type="radio" name="age" id="idoso" class="form-control" value="idoso">
+                            <label for="age" class="form-label">Idoso</label>
+                        </div>
+                    </div>
+                    <label class="form-label">Raça</label><div id="age-inputs">
+                        <div id="raca-inputs">
+                            <div class="radio-box">
+                                <input type="radio" name="raca" id="dog" class="form-control" value="dog" checked>
+                                <label for="raca" class="form-label">Canino</label>
+                            </div>
+                            <div class="radio-box">
+                                <input type="radio" name="raca" id="cat" class="form-control" value="cat">
+                                <label for="raca" class="form-label">Felino</label>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <button  type="submit" class="btn-default">
+                <i class="fa-solid fa-check"></i>
+                Confirmar Assinatura
+            </button>
+        </form>
+    </main>
+    <footer>
+        <div class="footer">
+            <div id="footer-items">
+                <span id="copyright">
+                    &copy 2025
+                </span>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

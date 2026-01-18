@@ -1,6 +1,19 @@
 **Patinha Surpresas - Um E-commerce para pets**
+*Conceito*
 
-O projeto foi voltado para o público que possui animais domésticos, mais especificamente, cães e gatos. Desenvolvido no intuito de otimizar o tempo e facilitar a escolha dos produtos para pets.
+Um e-commerce de caixas, seja por compra avulsa ou assinatura mensal, com produtos voltados para cães e gatos, independente de gênero ou idade. Desenvolvido no intuito de otimizar o tempo e facilitar a escolha dos produtos para pets.
+
+*Público Alvo*
+
+O projeto foi voltado para o público que possui animais domésticos, mais especificamente, cães e gatos.
+
+*Diferenciais*
+
+-  Galeria da Painha: um espço voltado para o feedback dos clientes, onde os 3 mais votados, ficam em destaque na página principal por 1 semana.
+
+- Qualidade: praticidade, a personalização conforme o tipo de pet, proporcionando uma experiência completa e conveniente ao cliente.
+
+- Facilidade: navegação fácil, entrega rápida e um layout responsivo, proporcionando uma experiência de compra segura e agradável.
 
 *Equipamentos Utilizados*
 - HTML / CSS / JavaScript;

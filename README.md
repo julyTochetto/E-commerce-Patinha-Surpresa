@@ -9,7 +9,7 @@ O projeto foi voltado para o público que possui animais domésticos, mais espec
 
 *Diferenciais*
 
--  Galeria da Painha: um espço voltado para o feedback dos clientes, onde os 3 mais votados, ficam em destaque na página principal por 1 semana.
+-  Galeria da Patinha: um espço voltado para o feedback dos clientes, onde os 3 mais votados, ficam em destaque na página principal por 1 semana.
 
 - Qualidade: praticidade, a personalização conforme o tipo de pet, proporcionando uma experiência completa e conveniente ao cliente.
 
@@ -39,5 +39,6 @@ O projeto foi voltado para o público que possui animais domésticos, mais espec
 *Autor*
 
 July Tochetto - (https://github.com/julyTochetto)
+
 
 **Projeto desenvolvido em 2026**

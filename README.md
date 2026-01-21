@@ -34,7 +34,7 @@ O projeto foi voltado para o público que possui animais domésticos, mais espec
 *Preview do Projeto*
 
 [Preview Desktop](preview.jpeg)
-[Preview Mobile](previewMobile.jpeg)
+[Preview Mobile](mobilePreview.jpeg)
 
 *Autor*
 
@@ -42,5 +42,6 @@ July Tochetto - (https://github.com/julyTochetto)
 
 
 **Projeto desenvolvido em 2026**
+
 
 
